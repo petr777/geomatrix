@@ -1,7 +1,9 @@
 import requests
 import re
 
-# Todo нет городов может прокатит но лутше сделать хорошо
+# Todo нет городов может прокатит но
+# Todo ЛУТШЕ СДЕЛАТЬ СРАЗУ ХОРОШО
+
 def get_data():
     r = requests.get('https://www.ugdvor.ru/allshop/')
     r = r.text.replace('\n', '').replace('\n', '')
