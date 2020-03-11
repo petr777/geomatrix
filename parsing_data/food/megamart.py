@@ -12,9 +12,9 @@ def get_good_data(td_address_list, td_href_map_list, td_time_list):
     sizeOfList = len(td_address_list)
     while True:
         shop = {
-            'address':td_address_list[count],
-            'href_map':td_href_map_list[count],
-            'working_time':td_time_list[count],
+            'address': td_address_list[count],
+            'href_map': td_href_map_list[count],
+            'working_time': td_time_list[count],
         }
         newList.append(shop)
         count += 1
@@ -36,17 +36,17 @@ def get_data(start_page):
             pass
     return address_list, href_map_list, time_list
 
-
 start_url = 'http://www.megamart.ru/addresses.html'
 start_page = get_page(start_url)
 address_list, href_map_list, time_list = get_data(start_page)
 good_data = get_good_data(address_list, href_map_list, time_list)
+print(good_data)
 
-# TODO нужно перейти по каждой ссылке google скорее всего понадобится selenium выдрать текуший url после переадресации
+"""# TODO нужно перейти по каждой ссылке google скорее всего понадобится selenium выдрать текуший url после переадресации
 # TODO в нем координаты
 for row in good_data:
     url = row['href_map']
     print(url)
     page = get_page(url)
     print(page.title.text)
-    print(page)
+    print(page)"""
