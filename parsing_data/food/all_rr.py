@@ -31,11 +31,7 @@ def get_data():
     return all_shop
 
 
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
+
 
 def all_rr_pd_data():
     """

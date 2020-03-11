@@ -1,6 +1,5 @@
 import requests
 import pandas as pd
-from pandas import ExcelWriter
 import datetime
 import re
 
@@ -48,14 +47,8 @@ def get_data():
     return all_shop
 
 
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
 
-
-def fermer_tsentr_pd_data():
+def fermer_center_pd_data():
     """
     1. отпарвляем запрос к странице "https://фермер-центр.рф/stores/"
     2. В ответ ищем все точки re.findall(r"DG.marker\((.*);", r) наннесенные на карту 2GIS
@@ -67,7 +60,6 @@ def fermer_tsentr_pd_data():
     """
     good_data = get_data()
     df = pd.DataFrame(good_data)
-    #write_xlsx(df, 'Fermer_Tsentr')
     return df
 
 

@@ -7,8 +7,6 @@ import json
 import time
 
 
-
-# TODO БАНЯТ ВОЗМОЖНО ДОСТАТОЧНО МЕНЯТЬ User-Agent или увеличтть sleep
 def get_data():
     all_shop = []
 
@@ -104,7 +102,6 @@ def samberi_pd_data():
     """
     good_data = get_data()
     df = pd.DataFrame(good_data)
-    write_xlsx(df, 'Samberi')
     return df
 
-samberi_pd_data()
+

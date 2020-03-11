@@ -1,6 +1,5 @@
 import requests
 import pandas as pd
-from pandas import ExcelWriter
 from bs4 import BeautifulSoup
 import datetime
 
@@ -53,11 +52,6 @@ def get_data():
 
     return good_data
 
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
 
 def slata_pd_data():
     """
@@ -70,5 +64,4 @@ def slata_pd_data():
     """
     good_data = get_data()
     df = pd.DataFrame(good_data)
-    #write_xlsx(df, 'slata')
     return df

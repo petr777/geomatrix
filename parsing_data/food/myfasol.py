@@ -1,6 +1,5 @@
 import requests
 import pandas as pd
-from pandas import ExcelWriter
 import datetime
 import re
 import json
@@ -28,11 +27,6 @@ def get_data():
 
     return all_shop
 
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
 
 def myfasol_pd_data():
     """
@@ -44,5 +38,4 @@ def myfasol_pd_data():
     """
     good_data = get_data()
     df = pd.DataFrame(good_data)
-    write_xlsx(df, 'myfasol')
     return df

@@ -63,11 +63,6 @@ def get_data():
         all_shop.append(store_dict)
     return all_shop
 
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
 
 def europa_ts_pd_data():
     """

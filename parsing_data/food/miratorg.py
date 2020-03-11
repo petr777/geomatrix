@@ -1,6 +1,5 @@
 import requests
 import pandas as pd
-from pandas import ExcelWriter
 from bs4 import BeautifulSoup
 import datetime
 import re
@@ -62,12 +61,6 @@ def get_data():
             search_shops(r, city['name'])
     get_shops_in_city()
     return all_shop
-
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
 
 
 def miratorg_pd_data():
