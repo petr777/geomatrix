@@ -35,7 +35,6 @@ def get_data():
             workin_time = li.find('div', class_='map-address_text-4 item').text.strip()
             tel = li.find('a').text
             store_dict = {
-                'region': city['name'],
                 'address': address,
                 'shopping center': name_TC,
                 'phone': tel,

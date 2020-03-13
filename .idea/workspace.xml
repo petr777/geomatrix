@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40381668-958b-4087-9ba1-a451128dc44b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/parsing_data/food/check_df.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsing_data/beauty/all_city_letu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsing_data/beauty/check_df.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsing_data/beauty/letu_aio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsing_data/societe_generale/rosbank.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/food/all_rr.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/all_rr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/food/europa_ts.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/europa_ts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/food/farmer_center.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/fermer_center.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/food/miratorg.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/miratorg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/food/myfasol.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/myfasol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/food/samberi.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/samberi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_notebook/New URL project 2020-02 - Petr.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/my_notebook/New URL project 2020-02 - Petr.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/letu.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/letu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/letu/all_city.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/letu/all_city.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/podrygka.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/podrygka.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/r_ulybka.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/r_ulybka.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/rivegauche.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/rivegauche.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/rubl_bum.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/rubl_bum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/ugdvor.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/ugdvor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing_data/food/megamart.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/megamart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parsing_data/food/slata.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/slata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/food/zao_agrokomplex.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/zao_agrokomplex.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,13 +88,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/parsing_data/beauty" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\box_geomatrix\geomatrix\parsing_data\beauty" />
+      <recent name="P:\box_geomatrix\geomatrix\parsing_data\beauty\letu" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\box_geomatrix\geomatrix\parsing_data\beauty" />
       <recent name="D:\www\geomatrix\parsing_data\beauty\letu" />
     </key>
   </component>
@@ -105,8 +115,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.check_df">
-    <configuration name="check_df" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.letu">
+    <configuration name="f" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="geomatrix" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,12 +124,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parsing_data/food" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parsing_data/beauty/letu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/food/check_df.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/letu/f.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="podrygka" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="letu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="geomatrix" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,7 +151,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/podrygka.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/letu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="r_ulybka" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="letu_aio" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="geomatrix" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,7 +173,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/r_ulybka.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/letu_aio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rivegauche" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ros" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="geomatrix" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,12 +190,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parsing_data/beauty" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parsing_data/societe_generale" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/rivegauche.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/societe_generale/ros.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="samberi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rosbank_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="geomatrix" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,12 +212,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parsing_data/food" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parsing_data/societe_generale" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/food/samberi.py" />
+      <option name="SCRIPT_NAME" value="P:\box_geomatrix\geomatrix\parsing_data\societe_generale\rosbank.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,19 +227,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.r_ulybka" />
-      <item itemvalue="Python.podrygka" />
-      <item itemvalue="Python.rivegauche" />
-      <item itemvalue="Python.samberi" />
-      <item itemvalue="Python.check_df" />
+      <item itemvalue="Python.rosbank_2" />
+      <item itemvalue="Python.ros" />
+      <item itemvalue="Python.letu" />
+      <item itemvalue="Python.letu_aio" />
+      <item itemvalue="Python.f" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.check_df" />
-        <item itemvalue="Python.rivegauche" />
-        <item itemvalue="Python.samberi" />
-        <item itemvalue="Python.podrygka" />
-        <item itemvalue="Python.r_ulybka" />
+        <item itemvalue="Python.letu" />
+        <item itemvalue="Python.f" />
+        <item itemvalue="Python.letu_aio" />
+        <item itemvalue="Python.rosbank_2" />
+        <item itemvalue="Python.ros" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +257,9 @@
       <workItem from="1583823515582" duration="31012000" />
       <workItem from="1583862719428" duration="7383000" />
       <workItem from="1583954684758" duration="7628000" />
-      <workItem from="1583962380411" duration="1314000" />
+      <workItem from="1583962380411" duration="1637000" />
+      <workItem from="1584044519444" duration="8170000" />
+      <workItem from="1584086479637" duration="39648000" />
     </task>
     <servers />
   </component>
@@ -290,21 +302,30 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/geomatrix$zao_agrokomplex.coverage" NAME="zao_agrokomplex Coverage Results" MODIFIED="1583845738958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
+    <SUITE FILE_PATH="coverage/geomatrix$f.coverage" NAME="f Coverage Results" MODIFIED="1584126891659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty/letu" />
+    <SUITE FILE_PATH="coverage/geomatrix$slata.coverage" NAME="slata Coverage Results" MODIFIED="1584098283025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
+    <SUITE FILE_PATH="coverage/geomatrix$letu_aio.coverage" NAME="letu_aio Coverage Results" MODIFIED="1584125068876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
+    <SUITE FILE_PATH="coverage/geomatrix$ros.coverage" NAME="ros Coverage Results" MODIFIED="1584119055187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/societe_generale" />
+    <SUITE FILE_PATH="coverage/geomatrix$rubl_bum.coverage" NAME="rubl_bum Coverage Results" MODIFIED="1584096817117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
+    <SUITE FILE_PATH="coverage/geomatrix$podrygka.coverage" NAME="podrygka Coverage Results" MODIFIED="1584096884086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
+    <SUITE FILE_PATH="coverage/geomatrix$europa_ts.coverage" NAME="europa_ts Coverage Results" MODIFIED="1583845658953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
+    <SUITE FILE_PATH="coverage/geomatrix$check_df__1_.coverage" NAME="check_df (1) Coverage Results" MODIFIED="1584099295897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty/letu" />
+    <SUITE FILE_PATH="coverage/geomatrix$good_pricer.coverage" NAME="good_pricer Coverage Results" MODIFIED="1583786965816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
+    <SUITE FILE_PATH="coverage/geomatrix$rosbank_2.coverage" NAME="rosbank_2 Coverage Results" MODIFIED="1584120865231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/societe_generale" />
+    <SUITE FILE_PATH="coverage/geomatrix$rivegauche.coverage" NAME="rivegauche Coverage Results" MODIFIED="1584050310398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
+    <SUITE FILE_PATH="coverage/geomatrix$samberi.coverage" NAME="samberi Coverage Results" MODIFIED="1583954800867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
+    <SUITE FILE_PATH="coverage/geomatrix$letu.coverage" NAME="letu Coverage Results" MODIFIED="1584131549679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
     <SUITE FILE_PATH="coverage/geomatrix$all_rr.coverage" NAME="all_rr Coverage Results" MODIFIED="1583847940273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
     <SUITE FILE_PATH="coverage/geomatrix$1b.coverage" NAME="1b Coverage Results" MODIFIED="1583850423957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
     <SUITE FILE_PATH="coverage/geomatrix$myfasol.coverage" NAME="myfasol Coverage Results" MODIFIED="1583849240488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
     <SUITE FILE_PATH="coverage/geomatrix$dobrotsen.coverage" NAME="dobrotsen Coverage Results" MODIFIED="1583839997838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
-    <SUITE FILE_PATH="coverage/geomatrix$slata.coverage" NAME="slata Coverage Results" MODIFIED="1583831343132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
+    <SUITE FILE_PATH="coverage/geomatrix$ugdvor.coverage" NAME="ugdvor Coverage Results" MODIFIED="1584096740386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
     <SUITE FILE_PATH="coverage/geomatrix$miratorg.coverage" NAME="miratorg Coverage Results" MODIFIED="1583835228027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
-    <SUITE FILE_PATH="coverage/geomatrix$r_ulybka.coverage" NAME="r_ulybka Coverage Results" MODIFIED="1583855663271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
-    <SUITE FILE_PATH="coverage/geomatrix$check_df.coverage" NAME="check_df Coverage Results" MODIFIED="1583963766809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
+    <SUITE FILE_PATH="coverage/geomatrix$r_ulybka.coverage" NAME="r_ulybka Coverage Results" MODIFIED="1584096716784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
+    <SUITE FILE_PATH="coverage/geomatrix$check_df.coverage" NAME="check_df Coverage Results" MODIFIED="1584098388825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
     <SUITE FILE_PATH="coverage/geomatrix$farmer_center.coverage" NAME="farmer_center Coverage Results" MODIFIED="1583841518694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
-    <SUITE FILE_PATH="coverage/geomatrix$megamart.coverage" NAME="megamart Coverage Results" MODIFIED="1583848132753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
-    <SUITE FILE_PATH="coverage/geomatrix$rubl_bum.coverage" NAME="rubl_bum Coverage Results" MODIFIED="1583851268697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
-    <SUITE FILE_PATH="coverage/geomatrix$podrygka.coverage" NAME="podrygka Coverage Results" MODIFIED="1583869360323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
-    <SUITE FILE_PATH="coverage/geomatrix$europa_ts.coverage" NAME="europa_ts Coverage Results" MODIFIED="1583845658953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
-    <SUITE FILE_PATH="coverage/geomatrix$good_pricer.coverage" NAME="good_pricer Coverage Results" MODIFIED="1583786965816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
-    <SUITE FILE_PATH="coverage/geomatrix$rivegauche.coverage" NAME="rivegauche Coverage Results" MODIFIED="1583961640709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
-    <SUITE FILE_PATH="coverage/geomatrix$samberi.coverage" NAME="samberi Coverage Results" MODIFIED="1583954800867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
+    <SUITE FILE_PATH="coverage/geomatrix$check_df__2_.coverage" NAME="check_df (2) Coverage Results" MODIFIED="1584099942192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
+    <SUITE FILE_PATH="coverage/geomatrix$megamart.coverage" NAME="megamart Coverage Results" MODIFIED="1584097024154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
+    <SUITE FILE_PATH="coverage/geomatrix$rivegauche_new.coverage" NAME="rivegauche_new Coverage Results" MODIFIED="1584047624489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
   </component>
 </project>

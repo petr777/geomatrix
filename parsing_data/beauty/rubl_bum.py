@@ -27,12 +27,6 @@ def get_data():
     return all_shop
 
 
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
-
 def rubl_bum_pd_data():
     # TODO сомительная точность координат ПРОВЕРИТЬ
     """
@@ -46,6 +40,5 @@ def rubl_bum_pd_data():
     """
     good_data = get_data()
     df = pd.DataFrame(good_data)
-    #write_xlsx(df, 'rubl_bum_')
     return df
 

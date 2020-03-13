@@ -57,13 +57,6 @@ def get_data():
     return all_shop
 
 
-
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
-
 def podrygka_pd_data():
     """
     1. в функции def get_all_city_url() средстави bs4 получаем список параметров для формирования коректного url
@@ -83,6 +76,6 @@ def podrygka_pd_data():
     """
     good_data = get_data()
     df = pd.DataFrame(good_data)
-    #write_xlsx(df, 'podrygka')
     return df
+
 
