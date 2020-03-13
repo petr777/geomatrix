@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40381668-958b-4087-9ba1-a451128dc44b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/parsing_data/beauty/all_city_letu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parsing_data/beauty/check_df.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parsing_data/beauty/letu_aio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parsing_data/societe_generale/rosbank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsing_data/beauty/sephora.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_notebook/New URL project 2020-02 - Petr.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/my_notebook/New URL project 2020-02 - Petr.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/letu.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/letu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/letu/all_city.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/letu/all_city.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/podrygka.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/podrygka.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/r_ulybka.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/r_ulybka.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/rivegauche.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/rivegauche.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/rubl_bum.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/rubl_bum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/ugdvor.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/ugdvor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/food/megamart.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/megamart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsing_data/food/slata.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/slata.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.letu">
+  <component name="RunManager" selected="Python.sephora">
     <configuration name="f" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="geomatrix" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,28 +169,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ros" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="geomatrix" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parsing_data/societe_generale" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/societe_generale/ros.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="rosbank_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="geomatrix" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,20 +191,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sephora" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="geomatrix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parsing_data/beauty" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/sephora.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.rosbank_2" />
-      <item itemvalue="Python.ros" />
       <item itemvalue="Python.letu" />
       <item itemvalue="Python.letu_aio" />
       <item itemvalue="Python.f" />
+      <item itemvalue="Python.sephora" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sephora" />
         <item itemvalue="Python.letu" />
         <item itemvalue="Python.f" />
         <item itemvalue="Python.letu_aio" />
         <item itemvalue="Python.rosbank_2" />
-        <item itemvalue="Python.ros" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +246,7 @@
       <workItem from="1583954684758" duration="7628000" />
       <workItem from="1583962380411" duration="1637000" />
       <workItem from="1584044519444" duration="8170000" />
-      <workItem from="1584086479637" duration="39648000" />
+      <workItem from="1584086479637" duration="41594000" />
     </task>
     <servers />
   </component>
@@ -327,5 +314,6 @@
     <SUITE FILE_PATH="coverage/geomatrix$check_df__2_.coverage" NAME="check_df (2) Coverage Results" MODIFIED="1584099942192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
     <SUITE FILE_PATH="coverage/geomatrix$megamart.coverage" NAME="megamart Coverage Results" MODIFIED="1584097024154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
     <SUITE FILE_PATH="coverage/geomatrix$rivegauche_new.coverage" NAME="rivegauche_new Coverage Results" MODIFIED="1584047624489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
+    <SUITE FILE_PATH="coverage/geomatrix$sephora.coverage" NAME="sephora Coverage Results" MODIFIED="1584135335363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
   </component>
 </project>
