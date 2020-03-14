@@ -82,7 +82,7 @@ def get_data():
             for shop in JSON['result']['geolocationStoreInfoList']:
                 cleanre_data(shop, city_name)
 
-    #get_all_city_id()
+    get_all_city_id()
     get_data_in_city()
     return all_shop
 

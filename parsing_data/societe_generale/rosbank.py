@@ -83,7 +83,7 @@ def get_data():
 
     async def run():
         tasks = []
-        sem = asyncio.Semaphore(40)
+        sem = asyncio.Semaphore(30)
         async with ClientSession() as session:
             for i in range(0, 120000):
                 url = f'https://api.rosbank.ru/exchange/atm/list/get?id={i}'
