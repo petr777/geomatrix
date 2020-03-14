@@ -39,13 +39,6 @@ def get_data():
         get_all_stores(url)
     return all_data
 
-
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
-
 def r_ulybka_pd_data():
     """
     1. https://delivery.shop.api.svs.tdera.ru/stores?limit={limit}&page={num_page} отправляем запрос на страницу
@@ -57,8 +50,6 @@ def r_ulybka_pd_data():
     """
     good_data = get_data()
     df = pd.DataFrame(good_data)
-    write_xlsx(df, 'Ulibka Radugi')
     return df
 
 
-r_ulybka_pd_data()

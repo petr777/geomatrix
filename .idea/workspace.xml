@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40381668-958b-4087-9ba1-a451128dc44b" name="Default" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/parsing_data/food/check_df.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parsing_data/food/all_rr.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/all_rr.py" afterDir="false" />
@@ -12,6 +13,15 @@
       <change beforePath="$PROJECT_DIR$/parsing_data/food/samberi.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/samberi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parsing_data/food/slata.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/slata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parsing_data/food/zao_agrokomplex.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/food/zao_agrokomplex.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/my_notebook/all_city.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_notebook/read_all_city.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/letu.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/letu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/letu/all_city.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parsing_data/beauty/letu/all_city.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/letu/all_city2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing_data/beauty/letu/all_city3.txt" beforeDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +33,7 @@
     <SUITE FILE_PATH="coverage/geomatrix$myfasol.coverage" NAME="myfasol Coverage Results" MODIFIED="1583674507952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
     <SUITE FILE_PATH="coverage/geomatrix$zao_agrokomplex.coverage" NAME="zao_agrokomplex Coverage Results" MODIFIED="1583686046973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
     <SUITE FILE_PATH="coverage/geomatrix$all_rr.coverage" NAME="all_rr Coverage Results" MODIFIED="1583676293858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
-    <SUITE FILE_PATH="coverage/geomatrix$ugdvor.coverage" NAME="ugdvor Coverage Results" MODIFIED="1583596120758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
+    <SUITE FILE_PATH="coverage/geomatrix$ugdvor.coverage" NAME="ugdvor Coverage Results" MODIFIED="1583934638309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
     <SUITE FILE_PATH="coverage/geomatrix$podrygka.coverage" NAME="podrygka Coverage Results" MODIFIED="1583602718356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
     <SUITE FILE_PATH="coverage/geomatrix$1b.coverage" NAME="1b Coverage Results" MODIFIED="1583599805486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
     <SUITE FILE_PATH="coverage/geomatrix$farmer_center.coverage" NAME="farmer_center Coverage Results" MODIFIED="1583688164674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
@@ -31,9 +41,10 @@
     <SUITE FILE_PATH="coverage/geomatrix$aio_http.coverage" NAME="aio_http Coverage Results" MODIFIED="1583579263199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data" />
     <SUITE FILE_PATH="coverage/geomatrix$megamart.coverage" NAME="megamart Coverage Results" MODIFIED="1583673267558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
     <SUITE FILE_PATH="coverage/geomatrix$main.coverage" NAME="main Coverage Results" MODIFIED="1583569047284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orm_db" />
-    <SUITE FILE_PATH="coverage/geomatrix$goldapple.coverage" NAME="goldapple Coverage Results" MODIFIED="1583594338891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
-    <SUITE FILE_PATH="coverage/geomatrix$yves_rocher.coverage" NAME="yves_rocher Coverage Results" MODIFIED="1583593017184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
+    <SUITE FILE_PATH="coverage/geomatrix$goldapple.coverage" NAME="goldapple Coverage Results" MODIFIED="1583934678754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
     <SUITE FILE_PATH="coverage/geomatrix$europa_ts.coverage" NAME="europa_ts Coverage Results" MODIFIED="1583678273571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
+    <SUITE FILE_PATH="coverage/geomatrix$yves_rocher.coverage" NAME="yves_rocher Coverage Results" MODIFIED="1583934715046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
+    <SUITE FILE_PATH="coverage/geomatrix$read_all_city.coverage" NAME="read_all_city Coverage Results" MODIFIED="1583937952304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_notebook" />
     <SUITE FILE_PATH="coverage/geomatrix$letu.coverage" NAME="letu Coverage Results" MODIFIED="1583586474777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
     <SUITE FILE_PATH="coverage/geomatrix$r_ulybka.coverage" NAME="r_ulybka Coverage Results" MODIFIED="1583584025047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
   </component>
@@ -67,18 +78,197 @@
     </expand>
     <select />
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="goldapple.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parsing_data/beauty/goldapple.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_all_city.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_notebook/read_all_city.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yves_rocher.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parsing_data/beauty/yves_rocher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ugdvor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parsing_data/beauty/ugdvor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="letu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parsing_data/beauty/letu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+>>>>>>> Stashed changes
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YuGr6Y8WOCHhpKIirmRT8lrOTw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>970935246746798059</find>
+      <find>sessionStorage.setItem</find>
+      <find>items</find>
+      <find>var store_list</find>
+      <find>mosco</find>
+      <find>55.</find>
+      <find>DG.marker</find>
+      <find>dg</find>
+      <find>&lt;script&gt;console.error</find>
+      <find>55.7678</find>
+      <find>Магистральная ул.</find>
+      <find>Магистральная</find>
+      <find>Володи Головатого</find>
+      <find>3868989911</find>
+      <find>68_2366072709</find>
+      <find>var stores</find>
+      <find>&lt;tr&gt;</find>
+      <find>56.</find>
+      <find>59.93</find>
+      <find>60.54</find>
+      <find>56.91</find>
+      <find>shops</find>
+      <find>cities:</find>
+      <find>кызы</find>
+      <find>Импорт из «Адреса магазинов Хороший Выбор.xlsx</find>
+      <find>geoObjects</find>
+      <find>hypermarket</find>
+      <find>DG.map</find>
+      <find>. Барнаул, Павловск</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/orm_db/main.py" />
+        <option value="$PROJECT_DIR$/parsing_data/aio_http.py" />
+        <option value="$PROJECT_DIR$/parsing_data/beauty/r_ulybka.py" />
+        <option value="$PROJECT_DIR$/parsing_data/beauty/yves_rocher.py" />
+        <option value="$PROJECT_DIR$/parsing_data/beauty/goldapple.py" />
+        <option value="$PROJECT_DIR$/parsing_data/beauty/1b.py" />
+        <option value="$PROJECT_DIR$/parsing_data/beauty/podrygka.py" />
+        <option value="$PROJECT_DIR$/parsing_data/beauty/ugdvor.py" />
+        <option value="$PROJECT_DIR$/parsing_data/food/megamart.py" />
+        <option value="$PROJECT_DIR$/parsing_data/food/myfasol.py" />
+        <option value="$PROJECT_DIR$/parsing_data/food/all_rr.py" />
+        <option value="$PROJECT_DIR$/parsing_data/food/europa_ts.py" />
+        <option value="$PROJECT_DIR$/parsing_data/food/samberi.py" />
+        <option value="$PROJECT_DIR$/parsing_data/food/zao_agrokomplex.py" />
+        <option value="$PROJECT_DIR$/parsing_data/food/farmer_center.py" />
+        <option value="$PROJECT_DIR$/my_notebook/lesson_1.ipynb" />
+        <option value="$PROJECT_DIR$/parsing_data/beauty/letu.py" />
+        <option value="$PROJECT_DIR$/parsing_data/beauty/letu/good_city" />
+        <option value="$PROJECT_DIR$/my_notebook/read_all_city.py" />
+        <option value="$PROJECT_DIR$/my_notebook/views_map.ipynb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/my_notebook/voila/voila/js/package.json" />
+      <path value="$PROJECT_DIR$/my_notebook/voila/voila/packages/jupyterlab-voila/package.json" />
+      <path value="$PROJECT_DIR$/venv/Lib/site-packages/jupyterlab/staging/package.json" />
+      <path value="$PROJECT_DIR$/venv/Lib/site-packages/jupyterlab/static/package.json" />
+      <path value="$PROJECT_DIR$/venv/Lib/site-packages/jupyterlab/tests/mock_packages/extension/package.json" />
+      <path value="$PROJECT_DIR$/venv/Lib/site-packages/jupyterlab/tests/mock_packages/incompat/package.json" />
+      <path value="$PROJECT_DIR$/venv/Lib/site-packages/jupyterlab/tests/mock_packages/mimeextension/package.json" />
+      <path value="$PROJECT_DIR$/venv/Lib/site-packages/jupyterlab/tests/mock_packages/package/package.json" />
+      <path value="$PROJECT_DIR$/venv/share/jupyter/lab/static/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-6" />
+    <option name="width" value="1933" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="geomatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geomatrix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geomatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geomatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="my_notebook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geomatrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geomatrix" type="462c0819:PsiDirectoryNode" />
+              <item name="parsing_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+>>>>>>> Stashed changes
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -89,7 +279,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www\geomatrix\my_notebook\voila" />
+      <recent name="D:\www\geomatrix\my_notebook" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\www\geomatrix\my_notebook" />
       <recent name="D:\www\geomatrix\parsing_data\beauty\letu" />
     </key>
   </component>
@@ -105,8 +300,13 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Python.check_df">
     <configuration name="check_df" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.read_all_city">
+    <configuration name="farmer_center" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <module name="geomatrix" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,7 +319,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/food/check_df.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/food/farmer_center.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +332,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="podrygka" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="goldapple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <module name="geomatrix" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,7 +349,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/podrygka.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/goldapple.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +362,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="r_ulybka" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="read_all_city" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <module name="geomatrix" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,12 +374,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parsing_data/beauty" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_notebook" />
+>>>>>>> Stashed changes
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/r_ulybka.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_notebook/read_all_city.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +396,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="rivegauche" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="ugdvor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <module name="geomatrix" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,7 +413,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/rivegauche.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/ugdvor.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +426,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="samberi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="yves_rocher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <module name="geomatrix" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,12 +438,16 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parsing_data/food" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parsing_data/beauty" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/food/samberi.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parsing_data/beauty/yves_rocher.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,6 +457,7 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< Updated upstream
       <item itemvalue="Python.r_ulybka" />
       <item itemvalue="Python.podrygka" />
       <item itemvalue="Python.rivegauche" />
@@ -230,6 +471,21 @@
         <item itemvalue="Python.samberi" />
         <item itemvalue="Python.podrygka" />
         <item itemvalue="Python.r_ulybka" />
+=======
+      <item itemvalue="Python.farmer_center" />
+      <item itemvalue="Python.ugdvor" />
+      <item itemvalue="Python.goldapple" />
+      <item itemvalue="Python.yves_rocher" />
+      <item itemvalue="Python.read_all_city" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.read_all_city" />
+        <item itemvalue="Python.yves_rocher" />
+        <item itemvalue="Python.goldapple" />
+        <item itemvalue="Python.ugdvor" />
+        <item itemvalue="Python.farmer_center" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +507,37 @@
     </task>
     <servers />
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32939914" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35281616" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.061979167" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32939914" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+>>>>>>> Stashed changes
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -288,6 +575,7 @@
       </default-breakpoints>
     </breakpoint-manager>
   </component>
+<<<<<<< Updated upstream
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/geomatrix$zao_agrokomplex.coverage" NAME="zao_agrokomplex Coverage Results" MODIFIED="1583845738958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
     <SUITE FILE_PATH="coverage/geomatrix$all_rr.coverage" NAME="all_rr Coverage Results" MODIFIED="1583847940273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
@@ -306,5 +594,343 @@
     <SUITE FILE_PATH="coverage/geomatrix$good_pricer.coverage" NAME="good_pricer Coverage Results" MODIFIED="1583786965816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
     <SUITE FILE_PATH="coverage/geomatrix$rivegauche.coverage" NAME="rivegauche Coverage Results" MODIFIED="1583961640709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/beauty" />
     <SUITE FILE_PATH="coverage/geomatrix$samberi.coverage" NAME="samberi Coverage Results" MODIFIED="1583954800867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parsing_data/food" />
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/my_notebook/views_map.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/letu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/r_ulybka.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/megamart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/myfasol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/all_rr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/europa_ts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/samberi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/zao_agrokomplex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/farmer_center.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/letu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/r_ulybka.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/yves_rocher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/goldapple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="17" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/ugdvor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/1b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/podrygka.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/letu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/r_ulybka.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/yves_rocher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="70" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/goldapple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/ugdvor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/1b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="110" column="9" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orm_db/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ad17895b-7a71-42ac-9543-29fa0fff3fd4/schema/main/table/retail_points">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/aio_http.py" />
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/letu/all_city.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/letu/all_city3.txt" />
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/podrygka.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/1b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/myfasol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/samberi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/zao_agrokomplex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/all_rr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/europa_ts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/farmer_center.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/food/megamart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_notebook/lesson_1.ipynb" />
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/r_ulybka.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/yves_rocher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/letu/good_city" />
+    <entry file="file://$PROJECT_DIR$/my_notebook/all_city.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/ugdvor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/letu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_notebook/good_city.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_data/beauty/goldapple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_notebook/views_map.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_notebook/read_all_city.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
   </component>
 </project>
