@@ -85,6 +85,7 @@ def get_data():
             'website': 'http://storelocator.yves-rocher.com/fr/',
             'date_review': datetime.datetime.now(),
         }
+        print(store_dict)
         all_shops.append(store_dict)
 
 
