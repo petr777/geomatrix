@@ -1,10 +1,7 @@
 import requests
-from bs4 import BeautifulSoup
-import re
 import datetime
 import pandas as pd
-from pandas import ExcelWriter
-import ast
+
 
 
 def get_openingHours(openingHours):
