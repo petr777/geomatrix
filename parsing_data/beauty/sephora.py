@@ -1,10 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-import re
 import ast
 import datetime
 import pandas as pd
-from pandas import ExcelWriter
 
 
 def get_page(url):
@@ -68,16 +66,19 @@ def get_data():
     return all_shop
 
 
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'xlsx\{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
-
 def sephora_pd_data():
+    """
+    1. В функции get_all_city() средствами bs4 находим ссылк на все города,
+    которые отправляем в функцию  get_stores_in_city
+    2. В функции get_stores_in_city средствами bs4 находим интересующие данные
+        - time_work, address, phone находятся в одной строке с помошью манипуляций с текстом получаем нужное
+        - остальные данны получеам средствами bs4
+    3. Записывеам найденные данные в all_shop = []
+    4. Формируем df из всех получееных данных
+    :return:
+    """
     good_data = get_data()
     df = pd.DataFrame(good_data)
-    write_xlsx(df, 'sephora')
     return df
 
-sephora_pd_data()
+

@@ -1,10 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-import re
-import ast
 import datetime
 import pandas as pd
-from pandas import ExcelWriter
+
 
 domian = 'https://iledebeaute.ru'
 
@@ -13,7 +11,6 @@ def get_page(url):
     r = requests.get(url)
     page = BeautifulSoup(r.text, 'html.parser')
     return page
-
 
 
 def get_data_one_shop(url):
@@ -97,16 +94,22 @@ def get_data():
     return all_shop
 
 
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'xlsx\{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
-
 def iledebeaute_pd_data():
+    """
+    1. В функции get_all_city_url() получаем ссылки на все города отпправляем
+       в функцию ссылку all_shop_in_city и имя города
+    2. На странице с конретного города средствами bs4 находим таблицу с магазинами
+       - Распарсив таблицу забираем от туда чать даннных
+           В первом столбце таблицы находятся brand_name, shop_title, subway
+            для получения которых отправляем текущую строчку в функцию pars_name(),
+            где с помошью манипуляций с текстом получаем интересуюшие даннные
+       - Для получения адреса необходим поситить его страницу что и делаем
+       - Записывеам найденные данные в all_shop = []
+    3. Формируем df из всех получееных данных
+
+    :return:
+    """
     good_data = get_data()
     df = pd.DataFrame(good_data)
-    write_xlsx(df, 'iledebeaute')
     return df
 
-iledebeaute_pd_data()

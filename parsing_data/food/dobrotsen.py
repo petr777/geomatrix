@@ -4,50 +4,52 @@ from pandas import ExcelWriter
 from bs4 import BeautifulSoup
 import datetime
 import json
-
-main_domian = 'http://доброцен.рф'
-
-def search_data_markers(page):
-    ul = page.find('div', id='ul-content')
-    #print(ul)
-    list_region = ul.find('div', {"data-contents": "true"})
-    all_address_shops_in_region = list_region.find_all('ul')
+import re
 
 
-    print(len(all_address_shops_in_region))
-    print(len(list_region.find_all('div', {'class': '_17fgIIn___block normal'})))
-
-
-    """
-    data_markers = ul.find('div', class_='ul-widget ul-widget-maps')
-    list_shops = json.loads(data_markers['data-markers'])
-    for shop in list_shops:
-        print(shop)
-    """
-    return True
-
-
-def get_page(url):
-    r = requests.get(url)
+def get_yandex_map_srcipt():
+    r = requests.get('http://доброцен.рф/adriesa_maghazinov_')
     page = BeautifulSoup(r.text, 'html.parser')
-    return page
+    yandex_map_srcipt = page.find('div', id='ul-id-129-2').find('script')['src']
+    return yandex_map_srcipt
 
-start_page = get_page('http://доброцен.рф/adriesa_maghazinov')
-href_coyntrys = start_page.find_all('span', 'LreJDHx___wrapper')
+def get_data():
+    all_shop = []
+    url = get_yandex_map_srcipt()
+    r = requests.get(url).text
+    result = re.findall(r'"geoObjects":(.*)}],"presetStorage', r)[0]
+    JSON = json.loads(result)
+    for item in JSON['features']:
+        address = item['properties']['name']
+        coords = item['geometry']['coordinates']
+        print(coords)
+        x, y = coords[0], coords[1]
 
-for href_coyntry in href_coyntrys:
-    name_coyntry = href_coyntry.a.text
-    url_coyntry = main_domian + href_coyntry.a['href']
-    print(name_coyntry)
-    print(url_coyntry)
-    coyntry_page = get_page(url_coyntry)
-    search_data_markers(coyntry_page)
+        store_dict = {
+            'address': address,
+            'x': x,
+            'y': y,
+            'brand_name': "Dobrotsen",
+            'holding_name': "Dobrotsen",
+            'website': 'http://доброцен.рф',
+            'date_review': datetime.datetime.now(),
+        }
+        all_shop.append(store_dict)
+    return all_shop
 
+def dobrotsen_pd_data():
+    """
+    1. Заходим на страницу http://доброцен.рф/adriesa_maghazinov_
+       на которой средствами BS4  находим ссылку на скрипт отвечаюший за постороение Яндекс карты
+    2. Переходим по ссылке с омошью регулярных выражений ищем все точки на карте.
+    3. Преобразуем в коректный JSON
+    4. Разбирем записываем точки в all_shop
+    5. Возврашаем good_data
+    6. Формируем DF
 
-
-
-
-# TODO найти нас тарицу России, Беларуссии перейти на страницу фед. округа
-# далее на старницы фед окрыга ишии с помошь bs4 <div id="ul-content">
+    """
+    good_data = get_data()
+    df = pd.DataFrame(good_data)
+    return df
 
 

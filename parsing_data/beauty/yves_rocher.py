@@ -1,77 +1,108 @@
-from bs4 import BeautifulSoup
 import requests
+from bs4 import BeautifulSoup
 import re
-import json
-
-def get_parts_in_world():
-    # Получаем ссылки на все части света где есть магазины
-    r = requests.get('http://storelocator.yves-rocher.com/fr/')
-    result = re.findall(r"var store_list = (.*)]];", r.text)[0] + ']]'
-    list_url_parts = []
-    for parts in json.loads(result):
-        list_url_parts.append(parts[4])
-    print('Получили все части света')
-    return list_url_parts
-
-def get_country_in_parts():
-    # Получаем ссылки на все страны  где есть магазины
-    list_url_parst = get_parts_in_world()
-    list_url_country = []
-    for parts in list_url_parst:
-        r = requests.get(f'http://storelocator.yves-rocher.com{parts}')
-        result = re.findall(r"var store_list = (.*)]];", r.text)[0] + ']]'
-        for country in json.loads(result):
-            list_url_country.append(country[4])
-        print(f'Получили все страны по ссылке {country[4]}')
-    return list_url_country
-
-def get_region_in_country():
-    # Получаем ссылки на все регионы где есть магазины
-    list_url_country = get_country_in_parts()
-    list_url_region = []
-    for country in list_url_country:
-        if '/fr/europe/italy/' == country:
-            # Todo Италия Отдельный парсер
-            pass
-        else:
-            r = requests.get(f'http://storelocator.yves-rocher.com{country}')
-            result = re.findall(r"var store_list = (.*)]];", r.text)[0] + ']]'
-            for region in json.loads(result):
-                list_url_region.append(region[4])
-                print(f'Получили все регионы по ссылке {region[4]}')
-    return list_url_region
-
-def get_city_in_region():
-    # Получаем ссылки на все города где есть магазины
-    list_url_region = get_region_in_country()
-    list_url_city = []
-    for region in list_url_region:
-        print(f'Регион-{region}')
-        if region == '/fr/europe/france/centre/':
-            # Франция центр на сайте нет данных
-            pass
-        else:
-            r = requests.get(f'http://storelocator.yves-rocher.com/{region}')
-            result = re.findall(r"var store_list = (.*)]];", r.text)[0] + ']]'
-            for city in json.loads(result):
-                print(city)
-                list_url_city.append(city[4])
-                print(f'Получили все города по ссылке {city[4]}')
-    return list_url_city
+import datetime
+import pandas as pd
 
 
-def get_stores_in_city():
-    list_url_city = get_city_in_region()
-    list_url_stores = []
-    # Todo если это прямая ссылка на магазин парсим если нет то:
-    for city in list_url_city:
-        print(f'Город-{city}')
-        r = requests.get(f'http://storelocator.yves-rocher.com/{city}')
-        result = re.findall(r"var store_list = (.*)]];", r.text)[0] + ']]'
-        for store in json.loads(result):
-            print(store)
-            list_url_stores.append(store[4])
-            print(f'Получили все города по ссылке {store[4]}')
+def get_page(url):
+    r = requests.get(url)
+    page = BeautifulSoup(r.text, 'html.parser')
+    return page
+
+def pars_table_working_time(table):
+    working_time_end = ''
+    for day_row in table.find_all('tr'):
+        day = day_row.find_all('td')[0].text
+        working_time = day_row.find_all('td')[1].text
+        working_time_end += f'{day}-{working_time};'
+    return working_time_end
+
+def get_data():
+    all_shop = []
+    def get_detail_shop(name_region, url):
+        page = get_page(url)
+        data = page.find('dl', class_='first nng_address')
+        table_working_time = page.find('table', class_="horaire-table")
+        working_time = pars_table_working_time(table_working_time)
+        # Адаляем не нужный tag
+        data.dt.decompose()
+
+        # Находим ссылку на гугл карту забираем координаты
+        map_row = data.find_all('dd')[1]
+        url_map = map_row.find('a')['href']
+        coords = url_map.split('=')[-1]
+        y, x = coords.split(',')
+
+        # Преобразовываем фрагмент html в строку удаляем все теги, а br заменяем на перенос сторки
+        address_row = data.find_all('dd')[0]
+        address_row = str(address_row)
+        address_row = address_row.replace('<br/>', '\n')
+        address_row = address_row.replace('</dd>', '').replace('<dd>', '')
+        address_list = address_row.split('\n')
+
+        address = None
+        name_TC = None
+        post_code_row = None
+
+        # Если есть название ТЦ то три элемента в списке если нет то 2
+        if len(address_list) == 3:
+            address = address_list[0]
+            name_TC  = address_list[1]
+            post_code_row = address_list[2]
+        elif len(address_list) == 2:
+            address = address_list[0]
+            post_code_row = address_list[1]
+
+        # С помошью регулрок забираем имя города и почтовый индекс
+        post_code_list = re.findall(r'(\w+)', post_code_row)
+        post_code, name_city = post_code_list[0], post_code_list[1]
+
+        store_dict = {
+            'region': name_region,
+            'city': name_city,
+            'post_code': post_code,
+            'address': address,
+            'name_TC': name_TC,
+            'working_time': working_time,
+            'x': x,
+            'y': y,
+            'brand_name': 'Yves Rocher',
+            'holding_name': 'Yves Rocher',
+            'website': 'http://storelocator.yves-rocher.com/fr/',
+            'date_review': datetime.datetime.now(),
+        }
+        print(store_dict)
+
+        all_shop.append(store_dict)
+
+    start_url = 'https://www.yves-rocher.ru/butik/butiki-i-instituty-krasoty/SL'
+    page = get_page(start_url)
+    all_shops = page.find('div', id='main_togglable').find('ul')
+    for child in all_shops.children:
+        name_region = child.h3.text
+        name_region = name_region.replace('Бутики и SPA-Салоны:', '').strip()
+        print(name_region)
+        for shop in child.ul.find_all('li'):
+            url = 'https://www.yves-rocher.ru'+ shop.find('a')['href']
+            get_detail_shop(name_region, url)
+
+    return all_shop
 
 
-print(get_stores_in_city())
+
+def yves_pd_data():
+    """
+    1. Переходим по url 'https://www.yves-rocher.ru/butik/butiki-i-instituty-krasoty/SL'
+    2. Средствами bs4 получаем наименование и ссылки на все магазины
+    3. Отправляем url в функцию  get_detail_shop(), где посещаем страницу конкретоного магазина
+       - средствами bs4 и регулярных выражений находим данныем СМ. get_detail_shop()
+         ### постарался описать пошагово ###
+    4. записываем данные по магазину в all_shop = [] , который возврашаем в функцию yves_pd_data()
+    5. форируем DF из данных
+
+    :return:
+    """
+    good_data = get_data()
+    df = pd.DataFrame(good_data)
+    return df

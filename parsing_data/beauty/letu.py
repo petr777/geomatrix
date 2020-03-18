@@ -12,7 +12,9 @@ def get_id_session(s):
     result = result.replace("'","").strip()
     return result
 
-# ФУНКЦИЯ ПОЛУЧАЕ ID ГОРОДОВ ПОСТОЯННЫЙ ЗАПУСК НЕ ТРЕБУЕСЯ ДУМАЮ РАЗ В 2-3 месяца ОБНОВЛЯТЬ БУДЕТ ДОСТАТОЧНО
+"""
+
+# ФУНКЦИЯ ПОЛУЧАЕ ID ГОРОДОВ ПОСТОЯННЫЙ ЗАПУСК НЕ ТРЕБУЕСЯ
 def get_all_city_id():
     s = requests.Session()
     id_session = get_id_session(s)
@@ -44,7 +46,8 @@ def get_all_city_id():
     f = open('all_city_letu.txt', 'w')
     for item in all_city:
         f.write(f"{item}\n")
-
+    f.close()
+"""
 
 def get_data():
     all_shop = []
@@ -82,15 +85,9 @@ def get_data():
             for shop in JSON['result']['geolocationStoreInfoList']:
                 cleanre_data(shop, city_name)
 
-    get_all_city_id()
+    #get_all_city_id()
     get_data_in_city()
     return all_shop
-
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'xlsx\{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
 
 def letu_pd_data():
     """
@@ -100,7 +97,6 @@ def letu_pd_data():
 
     1. Функция  get_all_city_id() служит для получения списка всех городов не обязательночто там есть магазины но
        внутрений посковик сайта выдает их, остаточно один раз получить список всех городов и id к ним
-       ну и с какой-то переодичностью обновлять
        - получаем номер сесси
        - циклом отправляем запросы по адресу подставляя номер сессии id_city:
         "https://www.letu.ru/rest/model/atg/rest/geolocation/actor/GeolocationActor/setGeolocationInfo?pushSite=storeMobileRU&locale=ru_RU&cityId={id_city}&pushSite=storeMobileRU&_dynSessConf={id_session}"
@@ -120,7 +116,5 @@ def letu_pd_data():
 
     good_data = get_data()
     df = pd.DataFrame(good_data)
-    write_xlsx(df, 'letu')
     return df
 
-letu_pd_data()

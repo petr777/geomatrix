@@ -1,7 +1,6 @@
 import asyncio
 from aiohttp import ClientSession
 import pandas as pd
-from pandas import ExcelWriter
 import datetime
 import requests
 import json
@@ -99,14 +98,6 @@ def get_data():
 
     return good_data
 
-
-# Функция для записи в XLSX не вызываетя ( закомпилирована ) см. maria_pd_data
-def write_xlsx(df, name_file):
-    writer = ExcelWriter(f'{name_file}.xlsx')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
-    return 'ФАЙЛ СОХРАНЕН'
-
 def rosbank_pd_data():
     """
     1. в функции get_data() сначала получаем данные по всем офисам
@@ -133,7 +124,5 @@ def rosbank_pd_data():
 
     good_data = get_data()
     df = pd.DataFrame(good_data)
-    write_xlsx(df, 'rosbank')
     return df
 
-rosbank_pd_data()
