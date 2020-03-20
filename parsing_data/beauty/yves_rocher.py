@@ -6,6 +6,7 @@ import pandas as pd
 
 
 def get_page(url):
+    print(url)
     r = requests.get(url)
     page = BeautifulSoup(r.text, 'html.parser')
     return page
@@ -90,7 +91,6 @@ def get_data():
     return all_shop
 
 
-
 def yves_pd_data():
     """
     1. Переходим по url 'https://www.yves-rocher.ru/butik/butiki-i-instituty-krasoty/SL'
@@ -100,7 +100,6 @@ def yves_pd_data():
          ### постарался описать пошагово ###
     4. записываем данные по магазину в all_shop = [] , который возврашаем в функцию yves_pd_data()
     5. форируем DF из данных
-
     :return:
     """
     good_data = get_data()
